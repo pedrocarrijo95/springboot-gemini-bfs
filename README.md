@@ -4,7 +4,7 @@ This project is a **Spring Boot-based REST API** that processes a 2D map grid (w
 
 It demonstrates how to combine classic algorithms with modern GenAI in a clean, explainable, and production-ready way using Java and Spring Boot.
 
----.
+---
 
 ## ✨ What It Does
 
