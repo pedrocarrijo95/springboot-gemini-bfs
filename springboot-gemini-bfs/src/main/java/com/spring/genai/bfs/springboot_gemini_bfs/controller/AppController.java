@@ -19,10 +19,13 @@ public class AppController {
         this.geminiService = geminiService;
     }
 
-    @PostMapping("/response")
-    public String response(@RequestBody IslandRequest request) {
+    @PostMapping("/islands-count")
+    public String islandscount(@RequestBody IslandRequest request) {
         char[][] grid = request.getGrid();
         String language = request.getLanguage();
+        if(language == null || language.isEmpty()){
+            language = "en";
+        }
 
         NumberOfIslandsBFS numberofislandsbfs = new NumberOfIslandsBFS();
         int islands_count = numberofislandsbfs.numIslands(grid);
