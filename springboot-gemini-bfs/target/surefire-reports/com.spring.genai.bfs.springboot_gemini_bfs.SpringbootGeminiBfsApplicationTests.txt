@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.spring.genai.bfs.springboot_gemini_bfs.SpringbootGeminiBfsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.263 s -- in com.spring.genai.bfs.springboot_gemini_bfs.SpringbootGeminiBfsApplicationTests

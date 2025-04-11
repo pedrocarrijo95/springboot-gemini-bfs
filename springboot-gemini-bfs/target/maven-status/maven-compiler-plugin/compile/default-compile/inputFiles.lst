@@ -1,0 +1,6 @@
+/home/opc/block-storage2/springboot-gemini-bfs/src/main/java/com/spring/genai/bfs/springboot_gemini_bfs/SpringbootGeminiBfsApplication.java
+/home/opc/block-storage2/springboot-gemini-bfs/src/main/java/com/spring/genai/bfs/springboot_gemini_bfs/config/GoogleAiGeminiConfig.java
+/home/opc/block-storage2/springboot-gemini-bfs/src/main/java/com/spring/genai/bfs/springboot_gemini_bfs/controller/AppController.java
+/home/opc/block-storage2/springboot-gemini-bfs/src/main/java/com/spring/genai/bfs/springboot_gemini_bfs/model/IslandRequest.java
+/home/opc/block-storage2/springboot-gemini-bfs/src/main/java/com/spring/genai/bfs/springboot_gemini_bfs/service/GoogleAiGeminiService.java
+/home/opc/block-storage2/springboot-gemini-bfs/src/main/java/com/spring/genai/bfs/springboot_gemini_bfs/service/NumberOfIslandsBFS.java

@@ -1,0 +1,6 @@
+com/spring/genai/bfs/springboot_gemini_bfs/service/GoogleAiGeminiService.class
+com/spring/genai/bfs/springboot_gemini_bfs/service/NumberOfIslandsBFS.class
+com/spring/genai/bfs/springboot_gemini_bfs/controller/AppController.class
+com/spring/genai/bfs/springboot_gemini_bfs/config/GoogleAiGeminiConfig.class
+com/spring/genai/bfs/springboot_gemini_bfs/SpringbootGeminiBfsApplication.class
+com/spring/genai/bfs/springboot_gemini_bfs/model/IslandRequest.class
