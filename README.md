@@ -31,31 +31,35 @@ It demonstrates how to combine classic algorithms with modern GenAI in a clean, 
 
 ### 1. 🧱 Clone the project
 
-bash
+```bash
 git clone https://github.com/pedrocarrijo95/springboot-gemini-bfs.git
 cd springboot-gemini-bfs
+```
 
 
 ### 2. ⚙️ Configure the application
 
 Edit src/main/resources/application.properties or export environment variables:
 
-yaml
+```yaml
 spring.application.name=springboot-gemini-bfs
 GEMINI_API_KEY=<your_gemini_api_key>
 GEMINI_MODEL_NAME=<model_name>
+```
 
 
 ### 3. ▶️ Run the application
 
-bash
+```bash
   mvn clean install
   java -jar target/springboot-gemini-bfs.jar
+```
 
 or
 
-bash
+```bash
   mvn spring-boot:run
+```
 
 
 
@@ -64,12 +68,13 @@ bash
 
 The server will be available at:
 
-bash
+```bash
 http://localhost:8080
+```
 
 
-bash
-curl -X POST http://localhost:8080/api/islands-count \
+```bash
+curl -X POST http://localhost:8080/api/ai/islands-count \
   -H "Content-Type: application/json" \
   -d '{
     "grid": [
@@ -80,11 +85,13 @@ curl -X POST http://localhost:8080/api/islands-count \
     ],
     "language": "en"
   }'
+```
 
 
 ### 5. ▶️ Response Example
-bash
+```bash
 "Three islands were found on the map, calculated using the BFS algorithm. Each one represents a separate piece of land surrounded by water."
+```
 
 
 ![Response](tests-results/postman_response.png)
