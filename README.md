@@ -112,8 +112,6 @@ Using open source and GenAI to solve problems in production-ready apps
 
 📈 Add metrics to track performance
 
-🌐 Translate response based on lang input
-
 🧩 Add front-end to visualize the grid and AI response
 
 
