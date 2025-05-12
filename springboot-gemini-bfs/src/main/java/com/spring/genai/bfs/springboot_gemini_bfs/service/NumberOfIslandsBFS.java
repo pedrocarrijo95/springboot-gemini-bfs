@@ -5,11 +5,9 @@ public class NumberOfIslandsBFS {
         if (grid == null || grid.length == 0) return 0;
 
         int count = 0;
-        int rows = grid.length;
-        int cols = grid[0].length;
 
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
                 // If find land, start bfs search
                 if (grid[i][j] == '1') {
                     count++;
@@ -22,7 +20,7 @@ public class NumberOfIslandsBFS {
     }
 
     public void callBFS(char[][] grid, int i, int j){
-        if (i<0 || i>= grid.length || j<0 || j>= grid[i].length || grid[i][j] == 0){
+        if (i<0 || i>= grid.length || j<0 || j>= grid[i].length || grid[i][j] == '0'){
             return;
         }
         grid[i][j] = '0';
@@ -32,3 +30,4 @@ public class NumberOfIslandsBFS {
         callBFS(grid, i,j+1); //right
     }
 }
+
